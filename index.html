@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+   <header>
+    <img src="./img/Logo.png" alt="logo de Alura" class="logo">
+   </header>
+
+
+   <main>
+    <section class="seccion-1">
+        <textarea class="text-area" cols="30" rows="10" placeholder="Ingresa aqui el texto que deseas encriptar/desencriptar"></textarea>
+
+        <div class="linea-informacion">
+            <img src="./img/bi_exclamation-circle-fill.png" alt="exclamation sign" class="exclamacion">
+            <h6 class="informacion">Solo letras minúsculas y sin acentos</h6> 
+        </div>    
+    
+        <div class="botones">
+            <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button> 
+        </div>
+
+
+
+    </section>
+
+    <section class="seccion-2">
+        <textarea cols="30" rows="10" class="mensaje-encriptado"></textarea>
+        <div class="btn-seccion-2-copiar">
+        <button class="btn-copiar" id="copy">Copiar</button>
+        </div>
+    </section>
+
+    </main>
+
+<script src="./script.js"></script>
+
+<footer class="footer">
+    <h4 class="creditos">Creado por Sol Palencia</h4>
+    <a href="https://www.linkedin.com/in/sol-ana-maria-palencia-rol%C3%B3n-0b062b15b/"><img src="./img/Linkedin.png" alt="logo de Linkedin" class="linkedin"></a>
+    <a href="https://github.com/soleil279"><img src="./img/Github.png" alt="logo de Github" class="github"></a>
+</footer>
+</body>
+</html>
+
