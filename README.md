@@ -4,6 +4,12 @@
   Puedes utilizar el botón copiar para copiar el texto y revertir la encriptación o para compartir un mensaje secreto con otra persona.</p>
 <p>Por ahora, es necesario actualizar el navegador para devolver el juego a su estado inicial.</p>
 
+
+
+
+
 - Estado del proyecto: En desarollo.
+
+
 
 Creado por Sol Palencia
